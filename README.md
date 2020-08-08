@@ -17,3 +17,5 @@ Hệ thống Spa được xây dựng trên nền tảng web, cung cấp dịch 
 Các tài liệu bao gồm:
 * Tài liệu yêu cầu hệ thống
 * Tài liệu phân tích, thiết kế và cài đặt hệ thống
+## Bảng phân công
+https://docs.google.com/spreadsheets/d/1mPwmJTPbr4ehdLUGNrSrmwGG8lbV7NXnq3LPTNWb4Ug/edit?usp=sharing
