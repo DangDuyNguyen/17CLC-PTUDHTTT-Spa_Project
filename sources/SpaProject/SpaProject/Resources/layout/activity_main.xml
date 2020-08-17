@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainFrame"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:id="@+id/usernameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toStartOf="@id/mainFrame"
+        android:layout_marginStart="10dp"
+        android:gravity="center">
+
+        <TextView
+        android:id="@+id/usernameLabel"
+        android:text="Tên đăng nhập"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="start"
+        />
+        
+        <EditText
+        android:id="@+id/usernameTxtbox"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginRight="10dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passwordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/usernameView"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+        android:id="@+id/passwordLabel"
+        android:text="Mật khẩu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+         />
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/passwordTxtbox"
+            android:layout_gravity="start"
+            android:layout_marginRight="10dp"
+        />
+    </LinearLayout>
+    
+    <Button
+    android:id="@+id/loginBtn" 
+    android:text="Đăng nhập"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/passwordView"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/custom_button"
+    />
+
+    <View
+    android:id="@+id/seperatedLine"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@android:color/black"
+    android:layout_below="@id/loginBtn"/>
+
+<TextView
+    android:id="@+id/SocialInstructionLogin"
+    android:text="Hoặc đăng nhập bằng mạng xã hội của bạn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:layout_below="@id/seperatedLine"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:textAlignment="center"/>
+
+    <Button
+    android:id="@+id/fblogin" 
+    android:text="Facebook"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/SocialInstructionLogin"
+    android:layout_marginTop="20dp"
+    />
+
+    <Button
+    android:id="@+id/gglogin" 
+    android:text="Google"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/fblogin"
+    android:layout_marginTop="5dp"
+    />
+
+    <TextView
+        android:id="@+id/signinTrans"
+        android:text="Chưa có tài khoản, đăng ký ngay!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/gglogin"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
