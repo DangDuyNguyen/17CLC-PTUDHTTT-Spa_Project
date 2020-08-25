@@ -19,3 +19,5 @@ Các tài liệu bao gồm:
 * Tài liệu phân tích, thiết kế và cài đặt hệ thống
 ## Bảng phân công
 https://docs.google.com/spreadsheets/d/1mPwmJTPbr4ehdLUGNrSrmwGG8lbV7NXnq3LPTNWb4Ug/edit?usp=sharing
+## Seminar slide
+https://docs.google.com/presentation/d/14KU3NLLwLGQYB_S8KiywGMNZSzhAEu0xCdkLbl2sDWE/edit?usp=sharing
